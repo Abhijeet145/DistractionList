@@ -4,7 +4,9 @@ import InputArea from "./InputArea";
 
 function App() {
   //first fetch the data from the local storage
-  const storedItems = JSON.parse(localStorage.getItem('itemsKey'));
+  let storedItems = JSON.parse(localStorage.getItem('itemsKey'));
+  if(storedItems === null)
+    storedItems = [];
   //use this as default value of items in the list
   const [items, setItems] = useState(storedItems);
   
