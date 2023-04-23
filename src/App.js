@@ -17,6 +17,8 @@ function App() {
 
   //a function which adds the new item typed in the input area
   function addItem(inputText) {
+    if(inputText === "") //if the inputText is empty we don't add anything to the list
+      return;
     setItems(prevItems => {
       return [...prevItems, inputText];
     });
