@@ -1,3 +1,9 @@
+# Getting Started with Distraction List App
+It's basically a to-do list but you can use it to store the things that distract you while studying and do those things later.
+
+While coding or developing it is very easy to get distracted like you searched for some topic, seen a suggestion, clicked and poof your 1-2 hours are gone like that. Next time you have such an urge you can store your urges using this web application.
+
+The front-end is made using React(I have also added comments if you want to build it on your own although this is very beginner level project) and simple CSS. For keeping things simple I have used localstorage feature of browsers for storing the data so that the data is not lost on refreshing the page or even after closing it.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
